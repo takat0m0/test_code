@@ -2,12 +2,12 @@
 
 class Parameters(object):
     def __init__(self):
-        self.data_num = 20000
+        self.data_num = 10000
 
         self.hidden_num = 200
         self.batch_size = 100
         self.time_steps = 10
-        self.total_epoch = 100
+        self.total_epoch = 50
 
         self.init_val = 0.2
 

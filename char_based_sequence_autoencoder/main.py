@@ -120,6 +120,9 @@ if __name__ == u'__main__':
         test_input = 'test test.'
         print('input >> {}'.format(test_input))
         print('output>> {}'.format(make_seq(seq2seq, serializer, test_input, parameters.time_steps + 1)))
+        test_input = 'takatomo'
+        print('input >> {}'.format(test_input))
+        print('output>> {}'.format(make_seq(seq2seq, serializer, test_input, parameters.time_steps)))
 
     print('___ end training ___');sys.stdout.flush()
 
