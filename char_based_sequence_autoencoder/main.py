@@ -119,7 +119,7 @@ if __name__ == u'__main__':
         seq2seq.reading_mode()
         test_input = 'test test.'
         print('input >> {}'.format(test_input))
-        print('output>> {}'.format(make_seq(seq2seq, serializer, test_input, parameters.time_steps + 1)))
+        print('output>> {}'.format(make_seq(seq2seq, serializer, test_input, parameters.time_steps)))
         test_input = 'test'
         print('input >> {}'.format(test_input))
         print('output>> {}'.format(make_seq(seq2seq, serializer, test_input, parameters.time_steps)))
