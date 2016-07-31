@@ -14,7 +14,7 @@ import chainer.links as L
 from chainer import cuda
 
 from Serializer import Serializer, get_data
-from Vocabs import Vocabs, make_train_data
+from Vocabs import Vocabs
 from Cell import LSTMCell
 from Parameters import Parameters
 from MakeSeq import make_seq

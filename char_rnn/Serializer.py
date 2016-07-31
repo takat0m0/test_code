@@ -67,9 +67,5 @@ def get_data(filename, serializer, time_steps):
     return np.array(ret_x, dtype = np.int32),\
         np.array(ret_t, dtype = np.int32)
 
-if __name__ == u'__main__':
-    v = Vocabs()
-    s = Serializer(v)
-    print(s.num_char)
 
 
