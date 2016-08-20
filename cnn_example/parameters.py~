@@ -1,6 +1,0 @@
-#! -*- coding:utf-8 -*-
-
-class Parameters(object):
-    total_epoch = 30
-    batch_size = 20
-    init_val = 0.2
